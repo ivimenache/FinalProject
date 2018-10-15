@@ -132,6 +132,17 @@
     min-height: 500px;
 }
 
+.section4 {
+    color: #000;
+    background-color: white;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    display: block;
+    min-height: 500px;
+}
+
 .description {
 	    display: flex;
     min-height: 500px;
@@ -161,4 +172,20 @@
     justify-content: center;
 }
 
+/*.container4 {
+    opacity: 1;
+    width: 80%;
+    height: 80%;
 
+}*/
+
+.container4 {
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+       
+}
+.address {
+    font-weight: bold;
+}
