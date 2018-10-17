@@ -39,3 +39,10 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
     id: 'mapbox.streets',
     accessToken: 'pk.eyJ1IjoiaXZpbWVuYWNoZSIsImEiOiJjam5jZDhpaTcwMnFhM2twZ21nN2pjZWdqIn0.k5dIRW7wuAdsvijvD_qE6A'
 }).addTo(mymap);
+
+$('.slideshow').slick({
+	arrows: false,
+	autoplay: true,
+});
+
+
