@@ -52,6 +52,8 @@ body {
     display: flex;
 }
 
+
+
 .image {
 	display: inline-flex;
 }
@@ -70,6 +72,21 @@ body {
     margin: 0 auto;
     padding: 4%;
     float: right;
+}
+
+@media screen and (max-width: 890px) {
+    .container2 {
+        display: block;
+    }
+    .whitebox {
+        float: none;
+        text-align: center;
+        width: 90%;
+    }
+    .image2 {
+        width: 100%;
+        overflow: visible;
+    }
 }
 
 .meet-title {
@@ -127,9 +144,9 @@ body {
     text-align: center;
 }
 
-.col-20:hover .centered {
+/*.col-20:hover .centered {
     display: block;
-}
+}*/
 
 .imgrow2 {
     position:absolute;
@@ -139,7 +156,7 @@ body {
 }
 
 .imgrow2:hover {
-	opacity: 0.8;
+	opacity: 1;
 }
 
 .section3 {
